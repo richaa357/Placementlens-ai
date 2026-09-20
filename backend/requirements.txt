@@ -1,0 +1,25 @@
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.0
+python-dotenv==1.0.1
+
+# Database (PostgreSQL support: also install psycopg[binary])
+SQLAlchemy==2.0.36
+
+# Machine learning / numerics
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.5.2
+
+# NLP
+nltk==3.9.1
+spacy==3.8.2
+gensim==4.3.3
+# spaCy model (installed separately):
+#   python -m spacy download en_core_web_sm
+
+# Tests
+pytest==8.3.4
+httpx==0.28.1

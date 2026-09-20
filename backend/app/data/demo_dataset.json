@@ -1,0 +1,402 @@
+{
+  "dataset_name": "PlacementLens AI demonstration dataset",
+  "is_demo": true,
+  "generated_for": "local development and UI demonstration",
+  "disclaimer": "DEMONSTRATION DATA. Company overview fields (industry, headquarters, website) point at public company pages. Job descriptions are illustrative texts written for this demo so that the NLP pipeline has something to analyse, and every placement record below is fabricated sample data used ONLY to exercise charts and tables. None of the offer counts, stipends or drive dates are verified facts about any company. Replace this file (or point DATASET_PATH at your own dataset) with records from your placement cell before drawing conclusions.",
+  "companies": [
+    {
+      "name": "Google",
+      "slug": "google",
+      "industry": "Internet & Cloud Services",
+      "headquarters": "Mountain View, California, USA",
+      "website": "https://about.google/",
+      "description": "Search, advertising, Android, Google Cloud and AI research (Google DeepMind).",
+      "locations": ["Bengaluru, India", "Hyderabad, India", "Mountain View, USA", "Warsaw, Poland"],
+      "technology_areas": ["Search & Information Retrieval", "Large-scale Distributed Systems", "Machine Learning", "Cloud Infrastructure", "Mobile (Android)"],
+      "overview_source": {
+        "name": "Google - About / Company information",
+        "url": "https://about.google/",
+        "published_date": "2025",
+        "data_type": "verified_historical",
+        "is_demo": false,
+        "notes": "Public company information page. Industry, headquarters and business areas only."
+      },
+      "job_postings": [
+        {
+          "title": "Software Engineering Intern, Summer",
+          "role_family": "Software Engineering",
+          "employment_type": "Internship",
+          "location": "Bengaluru, India",
+          "posted_date": "2025-01-15",
+          "year": 2025,
+          "description": "Work with a team on a focused project. Strong foundation in data structures and algorithms, object oriented programming and complexity analysis. Programming experience in Python, Java, C++ or Go. Exposure to distributed systems, system design and testing. Familiarity with Git version control, Linux and writing maintainable production code. Coursework in operating systems, databases or networking."
+        },
+        {
+          "title": "Machine Learning Engineering Intern",
+          "role_family": "Machine Learning",
+          "employment_type": "Internship",
+          "location": "Bengaluru, India",
+          "posted_date": "2024-11-02",
+          "year": 2024,
+          "description": "Build and evaluate machine learning models for ranking and recommendation. Experience with classification, regression, feature engineering and model evaluation including cross validation and offline metrics. Hands-on with Python, scikit-learn, TensorFlow or PyTorch. Understanding of neural networks, embeddings and transformers. Comfortable with SQL for data extraction and large scale data pipelines."
+        },
+        {
+          "title": "Research Intern, Natural Language Processing",
+          "role_family": "Research / NLP",
+          "employment_type": "Internship",
+          "location": "Bengaluru, India",
+          "posted_date": "2025-02-20",
+          "year": 2025,
+          "description": "Research on large language models and natural language processing. Text preprocessing, tokenization, embeddings, transformer architectures, attention mechanisms and retrieval augmented generation. Strong Python and PyTorch skills. Experience with sentence embeddings, semantic similarity, named entity recognition and evaluating generative AI systems. Publications or open source contributions on GitHub are a plus."
+        },
+        {
+          "title": "Data Analytics Intern",
+          "role_family": "Data Analytics",
+          "employment_type": "Internship",
+          "location": "Hyderabad, India",
+          "posted_date": "2023-09-12",
+          "year": 2023,
+          "description": "Analyse product usage data to support decision making. Advanced SQL including joins, CTEs and window functions. Statistics, hypothesis testing and A/B testing. Python with pandas and numpy for analysis, dashboarding with data visualization tools. Experience with BigQuery style data warehouses and building reproducible ETL pipelines."
+        },
+        {
+          "title": "Software Engineering Intern, Cloud Infrastructure",
+          "role_family": "Software Engineering",
+          "employment_type": "Internship",
+          "location": "Hyderabad, India",
+          "posted_date": "2022-10-05",
+          "year": 2022,
+          "description": "Contribute to cloud platform services. Data structures and algorithms, object oriented design, concurrency and distributed systems. Programming in Java, C++ or Go. Containers with Docker and Kubernetes, CI/CD pipelines, Linux and REST APIs. Debugging and performance profiling of large scale services."
+        }
+      ],
+      "placement_records": [
+        {"year": 2025, "role": "Software Engineering Intern", "opening_type": "Internship", "offers_count": 14, "stipend_amount": 100000, "stipend_currency": "INR", "stipend_period": "month", "drive_date": "2025-02-11", "skills_requested": ["Data Structures & Algorithms", "Python", "System Design", "Git/GitHub"]},
+        {"year": 2024, "role": "Machine Learning Intern", "opening_type": "Internship", "offers_count": 6, "stipend_amount": 100000, "stipend_currency": "INR", "stipend_period": "month", "drive_date": "2024-11-19", "skills_requested": ["Machine Learning", "Python", "TensorFlow/PyTorch", "SQL"]},
+        {"year": 2024, "role": "Software Engineering Intern", "opening_type": "Internship", "offers_count": 11, "stipend_amount": null, "stipend_currency": null, "stipend_period": null, "drive_date": "2024-02-08", "skills_requested": ["Data Structures & Algorithms", "C++", "Object Oriented Programming"]},
+        {"year": 2023, "role": "Data Analytics Intern", "opening_type": "Internship", "offers_count": 4, "stipend_amount": null, "stipend_currency": null, "stipend_period": null, "drive_date": null, "skills_requested": ["SQL", "Window Functions", "Statistics", "Pandas"]},
+        {"year": 2022, "role": "Software Engineering Intern", "opening_type": "Internship", "offers_count": 9, "stipend_amount": null, "stipend_currency": null, "stipend_period": null, "drive_date": "2022-10-21", "skills_requested": ["Data Structures & Algorithms", "Java", "Docker"]}
+      ]
+    },
+    {
+      "name": "Amazon",
+      "slug": "amazon",
+      "industry": "E-commerce & Cloud Computing",
+      "headquarters": "Seattle, Washington, USA",
+      "website": "https://www.aboutamazon.com/",
+      "description": "Online retail, logistics, devices, advertising and Amazon Web Services.",
+      "locations": ["Bengaluru, India", "Chennai, India", "Hyderabad, India", "Seattle, USA"],
+      "technology_areas": ["Cloud Computing (AWS)", "Large-scale Distributed Systems", "Supply Chain Optimisation", "Machine Learning & Personalisation", "Data Engineering"],
+      "overview_source": {
+        "name": "About Amazon - company overview",
+        "url": "https://www.aboutamazon.com/about-us",
+        "published_date": "2025",
+        "data_type": "verified_historical",
+        "is_demo": false,
+        "notes": "Public company information page. Industry, headquarters and business areas only."
+      },
+      "job_postings": [
+        {
+          "title": "SDE Intern",
+          "role_family": "Software Engineering",
+          "employment_type": "Internship",
+          "location": "Bengaluru, India",
+          "posted_date": "2025-01-08",
+          "year": 2025,
+          "description": "Design, build and test services used by millions of customers. Solid data structures and algorithms, problem solving, object oriented programming and low level design. Java, C++ or Python. Experience with REST APIs, microservices, AWS cloud services, Linux and Git. Writing unit tests and operating services in production."
+        },
+        {
+          "title": "Applied Scientist Intern",
+          "role_family": "Applied Science / ML",
+          "employment_type": "Internship",
+          "location": "Bengaluru, India",
+          "posted_date": "2024-10-14",
+          "year": 2024,
+          "description": "Develop machine learning models for demand forecasting, personalisation and search relevance. Regression, classification, ensemble methods such as gradient boosting, feature engineering and rigorous model evaluation. Deep learning with PyTorch, sequence models, transformers and embeddings. Strong Python, SQL and experience with large scale data using Spark."
+        },
+        {
+          "title": "Business Intelligence Engineer Intern",
+          "role_family": "Data Analytics",
+          "employment_type": "Internship",
+          "location": "Chennai, India",
+          "posted_date": "2023-08-22",
+          "year": 2023,
+          "description": "Build reporting and analytics for operations teams. Expert SQL with joins, CTEs and window functions, dimensional data modelling and data warehouse concepts on Redshift. ETL pipelines, Python scripting, statistics and dashboarding with QuickSight or Tableau. Translating business questions into data models."
+        },
+        {
+          "title": "Machine Learning Intern, Alexa",
+          "role_family": "Machine Learning",
+          "employment_type": "Internship",
+          "location": "Hyderabad, India",
+          "posted_date": "2022-11-30",
+          "year": 2022,
+          "description": "Work on speech and natural language understanding. Text preprocessing, TF-IDF, word2vec embeddings, intent classification, named entity recognition and sentiment analysis. Neural networks including RNN and LSTM architectures. Python, scikit-learn, TensorFlow, NLTK or spaCy. Model evaluation on large annotated datasets."
+        },
+        {
+          "title": "Data Engineering Intern",
+          "role_family": "Data Engineering",
+          "employment_type": "Internship",
+          "location": "Bengaluru, India",
+          "posted_date": "2025-03-04",
+          "year": 2025,
+          "description": "Build data pipelines that power analytics and machine learning. SQL, database design and indexing, ETL orchestration with Airflow, PySpark, AWS cloud services and Docker containers. Python engineering practices, Git based workflows, CI/CD and monitoring of production pipelines."
+        }
+      ],
+      "placement_records": [
+        {"year": 2025, "role": "SDE Intern", "opening_type": "Internship", "offers_count": 22, "stipend_amount": 110000, "stipend_currency": "INR", "stipend_period": "month", "drive_date": "2025-01-28", "skills_requested": ["Data Structures & Algorithms", "Java", "System Design", "Cloud"]},
+        {"year": 2024, "role": "Applied Scientist Intern", "opening_type": "Internship", "offers_count": 5, "stipend_amount": null, "stipend_currency": null, "stipend_period": null, "drive_date": "2024-10-30", "skills_requested": ["Machine Learning", "Deep Learning", "Python", "SQL"]},
+        {"year": 2024, "role": "SDE Intern", "opening_type": "Internship", "offers_count": 18, "stipend_amount": 110000, "stipend_currency": "INR", "stipend_period": "month", "drive_date": "2024-01-22", "skills_requested": ["Data Structures & Algorithms", "C++", "Object Oriented Programming"]},
+        {"year": 2023, "role": "Business Intelligence Engineer Intern", "opening_type": "Internship", "offers_count": 7, "stipend_amount": null, "stipend_currency": null, "stipend_period": null, "drive_date": "2023-09-05", "skills_requested": ["SQL", "ETL/Data Pipelines", "Power BI/Tableau"]},
+        {"year": 2022, "role": "Machine Learning Intern", "opening_type": "Internship", "offers_count": 3, "stipend_amount": null, "stipend_currency": null, "stipend_period": null, "drive_date": null, "skills_requested": ["NLP", "Python", "TensorFlow/PyTorch"]}
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "slug": "microsoft",
+      "industry": "Software & Cloud Computing",
+      "headquarters": "Redmond, Washington, USA",
+      "website": "https://www.microsoft.com/en-us/about",
+      "description": "Windows, Office, Azure cloud, developer tooling and AI products.",
+      "locations": ["Hyderabad, India", "Bengaluru, India", "Noida, India", "Redmond, USA"],
+      "technology_areas": ["Cloud Platform (Azure)", "Productivity Software", "Developer Tools", "AI & Copilot Products", "Security"],
+      "overview_source": {
+        "name": "Microsoft - About the company",
+        "url": "https://www.microsoft.com/en-us/about",
+        "published_date": "2025",
+        "data_type": "verified_historical",
+        "is_demo": false,
+        "notes": "Public company information page. Industry, headquarters and business areas only."
+      },
+      "job_postings": [
+        {
+          "title": "Software Engineer Intern",
+          "role_family": "Software Engineering",
+          "employment_type": "Internship",
+          "location": "Hyderabad, India",
+          "posted_date": "2025-02-02",
+          "year": 2025,
+          "description": "Ship features across cloud and productivity products. Data structures and algorithms, object oriented programming, debugging and code review. C++, C#, Java or Python. Azure cloud services, REST APIs, containers with Docker, CI/CD with GitHub Actions and version control with Git. Emphasis on testing and secure coding."
+        },
+        {
+          "title": "Data Scientist Intern",
+          "role_family": "Data Science",
+          "employment_type": "Internship",
+          "location": "Bengaluru, India",
+          "posted_date": "2024-09-18",
+          "year": 2024,
+          "description": "Apply statistics and machine learning to product telemetry. Regression, classification, clustering, feature engineering and model evaluation. Python with pandas, numpy and scikit-learn. Advanced SQL including window functions and CTEs, experimentation and A/B testing, and communicating findings with Power BI dashboards."
+        },
+        {
+          "title": "AI Engineer Intern, Copilot",
+          "role_family": "Machine Learning",
+          "employment_type": "Internship",
+          "location": "Hyderabad, India",
+          "posted_date": "2025-03-11",
+          "year": 2025,
+          "description": "Build features on top of large language models. Prompt design, retrieval augmented generation, embeddings and vector search, evaluation of generative AI output. Transformers, PyTorch, Python, REST APIs and Azure cloud deployment. Understanding of text preprocessing and semantic similarity metrics such as cosine similarity."
+        },
+        {
+          "title": "Software Engineer Intern, Security",
+          "role_family": "Software Engineering",
+          "employment_type": "Internship",
+          "location": "Noida, India",
+          "posted_date": "2022-12-01",
+          "year": 2022,
+          "description": "Work on security tooling and detection pipelines. Strong programming in C++ or Python, data structures and algorithms, operating systems and networking fundamentals. Linux, shell scripting, SQL for investigation queries and Git based development workflow."
+        }
+      ],
+      "placement_records": [
+        {"year": 2025, "role": "Software Engineer Intern", "opening_type": "Internship", "offers_count": 12, "stipend_amount": 100000, "stipend_currency": "INR", "stipend_period": "month", "drive_date": "2025-02-17", "skills_requested": ["Data Structures & Algorithms", "C++", "Cloud", "Git/GitHub"]},
+        {"year": 2024, "role": "Data Scientist Intern", "opening_type": "Internship", "offers_count": 4, "stipend_amount": null, "stipend_currency": null, "stipend_period": null, "drive_date": "2024-09-27", "skills_requested": ["Machine Learning", "SQL", "Statistics", "Power BI/Tableau"]},
+        {"year": 2023, "role": "Software Engineer Intern", "opening_type": "Internship", "offers_count": 10, "stipend_amount": null, "stipend_currency": null, "stipend_period": null, "drive_date": null, "skills_requested": ["Data Structures & Algorithms", "Object Oriented Programming", "Python"]},
+        {"year": 2022, "role": "Software Engineer Intern", "opening_type": "Internship", "offers_count": 8, "stipend_amount": null, "stipend_currency": null, "stipend_period": null, "drive_date": "2022-12-16", "skills_requested": ["C++", "Linux", "Data Structures & Algorithms"]}
+      ]
+    },
+    {
+      "name": "Infosys",
+      "slug": "infosys",
+      "industry": "IT Services & Consulting",
+      "headquarters": "Bengaluru, Karnataka, India",
+      "website": "https://www.infosys.com/about.html",
+      "description": "IT consulting, application development and digital transformation services.",
+      "locations": ["Bengaluru, India", "Pune, India", "Mysuru, India", "Hyderabad, India"],
+      "technology_areas": ["Enterprise Application Development", "Cloud Migration", "Data & Analytics", "Automation", "Quality Engineering"],
+      "overview_source": {
+        "name": "Infosys - About us",
+        "url": "https://www.infosys.com/about.html",
+        "published_date": "2025",
+        "data_type": "verified_historical",
+        "is_demo": false,
+        "notes": "Public company information page. Industry, headquarters and business areas only."
+      },
+      "job_postings": [
+        {
+          "title": "Systems Engineer Trainee",
+          "role_family": "Software Engineering",
+          "employment_type": "Full-time (entry level)",
+          "location": "Mysuru, India",
+          "posted_date": "2025-01-20",
+          "year": 2025,
+          "description": "Entry level engineering programme. Programming fundamentals in Java or Python, object oriented programming, data structures and algorithms. Database concepts, SQL with joins and normalization, operating systems and computer networks. Exposure to Git, Linux, REST APIs and agile delivery practices. Strong communication and aptitude."
+        },
+        {
+          "title": "Data Analyst Intern",
+          "role_family": "Data Analytics",
+          "employment_type": "Internship",
+          "location": "Pune, India",
+          "posted_date": "2024-07-09",
+          "year": 2024,
+          "description": "Support client analytics engagements. SQL querying including joins and CTEs, Excel and Power BI or Tableau dashboarding, Python with pandas for data cleaning, basic statistics and reporting. Understanding of data warehouse concepts and ETL processes."
+        },
+        {
+          "title": "AI/ML Intern",
+          "role_family": "Machine Learning",
+          "employment_type": "Internship",
+          "location": "Bengaluru, India",
+          "posted_date": "2025-02-25",
+          "year": 2025,
+          "description": "Prototype machine learning solutions for enterprise clients. Supervised learning with regression and classification, feature engineering, model evaluation, Python and scikit-learn. Introductory natural language processing with text preprocessing, TF-IDF and embeddings. Deploying prototypes with Streamlit or Flask and Docker."
+        },
+        {
+          "title": "Cloud Engineering Intern",
+          "role_family": "Cloud / DevOps",
+          "employment_type": "Internship",
+          "location": "Hyderabad, India",
+          "posted_date": "2023-06-14",
+          "year": 2023,
+          "description": "Assist with cloud migration projects. AWS or Azure fundamentals, Linux administration, shell scripting, Docker containers, CI/CD with Jenkins and infrastructure automation. Python scripting and SQL basics for application support."
+        }
+      ],
+      "placement_records": [
+        {"year": 2025, "role": "Systems Engineer Trainee", "opening_type": "Full-time", "offers_count": 65, "stipend_amount": null, "stipend_currency": null, "stipend_period": null, "drive_date": "2025-02-05", "skills_requested": ["Java", "SQL", "Data Structures & Algorithms", "Database Design"]},
+        {"year": 2024, "role": "Systems Engineer Trainee", "opening_type": "Full-time", "offers_count": 58, "stipend_amount": null, "stipend_currency": null, "stipend_period": null, "drive_date": "2024-02-12", "skills_requested": ["Java", "SQL", "Object Oriented Programming"]},
+        {"year": 2024, "role": "Data Analyst Intern", "opening_type": "Internship", "offers_count": 9, "stipend_amount": 25000, "stipend_currency": "INR", "stipend_period": "month", "drive_date": "2024-07-22", "skills_requested": ["SQL", "Power BI/Tableau", "Pandas"]},
+        {"year": 2023, "role": "Cloud Engineering Intern", "opening_type": "Internship", "offers_count": 6, "stipend_amount": null, "stipend_currency": null, "stipend_period": null, "drive_date": null, "skills_requested": ["Cloud", "Linux", "Docker"]},
+        {"year": 2022, "role": "Systems Engineer Trainee", "opening_type": "Full-time", "offers_count": 71, "stipend_amount": null, "stipend_currency": null, "stipend_period": null, "drive_date": "2022-03-03", "skills_requested": ["Java", "SQL", "Database Design"]}
+      ]
+    },
+    {
+      "name": "Tata Consultancy Services",
+      "slug": "tata-consultancy-services",
+      "industry": "IT Services & Consulting",
+      "headquarters": "Mumbai, Maharashtra, India",
+      "website": "https://www.tcs.com/who-we-are",
+      "description": "IT services, consulting and business solutions, part of the Tata group.",
+      "locations": ["Mumbai, India", "Chennai, India", "Kolkata, India", "Bengaluru, India"],
+      "technology_areas": ["Enterprise IT Services", "Banking & Financial Technology", "Cloud & Infrastructure", "Data & Analytics", "Quality Engineering"],
+      "aliases": ["TCS"],
+      "overview_source": {
+        "name": "TCS - Who we are",
+        "url": "https://www.tcs.com/who-we-are",
+        "published_date": "2025",
+        "data_type": "verified_historical",
+        "is_demo": false,
+        "notes": "Public company information page. Industry, headquarters and business areas only."
+      },
+      "job_postings": [
+        {
+          "title": "Assistant System Engineer (Ninja)",
+          "role_family": "Software Engineering",
+          "employment_type": "Full-time (entry level)",
+          "location": "Chennai, India",
+          "posted_date": "2025-01-10",
+          "year": 2025,
+          "description": "Entry level role across application development and support. Programming fundamentals in C, C++, Java or Python, data structures and algorithms, database management systems and SQL. Operating systems and networking basics, problem solving and aptitude. Exposure to Git and agile methodology."
+        },
+        {
+          "title": "Digital Cadre - Data Engineering",
+          "role_family": "Data Engineering",
+          "employment_type": "Full-time (entry level)",
+          "location": "Mumbai, India",
+          "posted_date": "2024-08-05",
+          "year": 2024,
+          "description": "Build and maintain data pipelines for enterprise clients. SQL including joins, CTEs and window functions, data warehouse concepts, ETL tools, Python and PySpark. Cloud platforms such as AWS or Azure, Linux, and scheduling with Airflow."
+        },
+        {
+          "title": "Machine Learning Intern",
+          "role_family": "Machine Learning",
+          "employment_type": "Internship",
+          "location": "Bengaluru, India",
+          "posted_date": "2025-04-02",
+          "year": 2025,
+          "description": "Support AI delivery teams. Machine learning fundamentals including classification, regression and model evaluation, Python with scikit-learn, and natural language processing basics such as text preprocessing, TF-IDF and sentiment analysis. Familiarity with transformers, Git and Docker."
+        },
+        {
+          "title": "Quality Engineering Trainee",
+          "role_family": "Quality Engineering",
+          "employment_type": "Full-time (entry level)",
+          "location": "Kolkata, India",
+          "posted_date": "2022-09-19",
+          "year": 2022,
+          "description": "Manual and automated testing for enterprise applications. Java or Python scripting, Selenium automation, SQL for test data validation, defect management and understanding of the software development lifecycle. Linux basics and version control with Git."
+        }
+      ],
+      "placement_records": [
+        {"year": 2025, "role": "Assistant System Engineer", "opening_type": "Full-time", "offers_count": 88, "stipend_amount": null, "stipend_currency": null, "stipend_period": null, "drive_date": "2025-01-31", "skills_requested": ["Java", "SQL", "Data Structures & Algorithms"]},
+        {"year": 2024, "role": "Digital Cadre - Data Engineering", "opening_type": "Full-time", "offers_count": 21, "stipend_amount": null, "stipend_currency": null, "stipend_period": null, "drive_date": "2024-08-20", "skills_requested": ["SQL", "ETL/Data Pipelines", "Python", "Cloud"]},
+        {"year": 2023, "role": "Assistant System Engineer", "opening_type": "Full-time", "offers_count": 94, "stipend_amount": null, "stipend_currency": null, "stipend_period": null, "drive_date": "2023-02-14", "skills_requested": ["C++", "SQL", "Database Design"]},
+        {"year": 2022, "role": "Quality Engineering Trainee", "opening_type": "Full-time", "offers_count": 17, "stipend_amount": null, "stipend_currency": null, "stipend_period": null, "drive_date": null, "skills_requested": ["Java", "SQL", "Git/GitHub"]}
+      ]
+    },
+    {
+      "name": "Zoho",
+      "slug": "zoho",
+      "industry": "Business Software (SaaS)",
+      "headquarters": "Chennai, Tamil Nadu, India",
+      "website": "https://www.zoho.com/aboutus.html",
+      "description": "Suite of cloud based business applications including CRM, mail and analytics.",
+      "locations": ["Chennai, India", "Tenkasi, India", "Austin, USA"],
+      "technology_areas": ["SaaS Product Engineering", "Web Application Development", "Databases", "Business Analytics", "Applied AI"],
+      "overview_source": {
+        "name": "Zoho - About us",
+        "url": "https://www.zoho.com/aboutus.html",
+        "published_date": "2025",
+        "data_type": "verified_historical",
+        "is_demo": false,
+        "notes": "Public company information page. Industry, headquarters and business areas only."
+      },
+      "job_postings": [
+        {
+          "title": "Member Technical Staff - Intern",
+          "role_family": "Software Engineering",
+          "employment_type": "Internship",
+          "location": "Chennai, India",
+          "posted_date": "2025-01-25",
+          "year": 2025,
+          "description": "Build features for cloud business applications. Java or Python, object oriented programming, data structures and algorithms, relational database design and SQL. Web development with JavaScript, REST APIs, Linux and Git. Emphasis on clean code and debugging."
+        },
+        {
+          "title": "Data Science Intern",
+          "role_family": "Data Science",
+          "employment_type": "Internship",
+          "location": "Chennai, India",
+          "posted_date": "2024-10-08",
+          "year": 2024,
+          "description": "Work on analytics features inside the product suite. Machine learning with classification and regression, feature engineering, model evaluation, Python and scikit-learn. SQL for data extraction, statistics, and visualization. Exposure to natural language processing such as text preprocessing and sentiment analysis is a plus."
+        },
+        {
+          "title": "AI Intern - Applied NLP",
+          "role_family": "Machine Learning",
+          "employment_type": "Internship",
+          "location": "Tenkasi, India",
+          "posted_date": "2025-03-18",
+          "year": 2025,
+          "description": "Apply natural language processing to customer support and CRM data. Text preprocessing, TF-IDF, word2vec and sentence embeddings, cosine similarity, intent classification, named entity recognition and transformers. Python, spaCy, NLTK and PyTorch. Deploying demos with Streamlit and containerising with Docker."
+        },
+        {
+          "title": "Database Engineering Intern",
+          "role_family": "Data Engineering",
+          "employment_type": "Internship",
+          "location": "Chennai, India",
+          "posted_date": "2023-05-30",
+          "year": 2023,
+          "description": "Work on database internals and query performance. Strong SQL with joins, window functions and CTEs, indexing, normalization and schema design, PostgreSQL or MySQL internals, Java or C++ programming and Linux."
+        }
+      ],
+      "placement_records": [
+        {"year": 2025, "role": "Member Technical Staff - Intern", "opening_type": "Internship", "offers_count": 16, "stipend_amount": 30000, "stipend_currency": "INR", "stipend_period": "month", "drive_date": "2025-02-08", "skills_requested": ["Java", "Data Structures & Algorithms", "SQL"]},
+        {"year": 2024, "role": "Data Science Intern", "opening_type": "Internship", "offers_count": 5, "stipend_amount": null, "stipend_currency": null, "stipend_period": null, "drive_date": "2024-10-19", "skills_requested": ["Machine Learning", "Python", "SQL"]},
+        {"year": 2023, "role": "Database Engineering Intern", "opening_type": "Internship", "offers_count": 4, "stipend_amount": null, "stipend_currency": null, "stipend_period": null, "drive_date": null, "skills_requested": ["SQL", "Database Design", "C++"]},
+        {"year": 2022, "role": "Member Technical Staff - Intern", "opening_type": "Internship", "offers_count": 12, "stipend_amount": null, "stipend_currency": null, "stipend_period": null, "drive_date": "2022-11-12", "skills_requested": ["Java", "Object Oriented Programming", "SQL"]}
+      ]
+    }
+  ]
+}
