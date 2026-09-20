@@ -1,0 +1,7 @@
+# Optional heavyweight semantic models.
+# Install these and set ENABLE_SENTENCE_TRANSFORMERS=true to use transformer
+# embeddings instead of the locally trained Word2Vec / TF-IDF-SVD fallback.
+# Note: torch is a large download (>700 MB with CUDA wheels; use the CPU index
+# URL for a smaller install).
+sentence-transformers==3.3.1
+torch==2.5.1
